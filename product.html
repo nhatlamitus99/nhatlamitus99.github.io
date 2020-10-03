@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FAVADA</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <!-- Import font Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <!-- Style -->
+    
+
+    <link rel="stylesheet" href="../../public/css/product.css" />
+    <link rel="stylesheet" href="../../public/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+
+</head>
+
+<body>
+    <!-- Begin Header -->
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="ht-list row pt-1 pb-1 justify-content-end align-items-center">
+                    <button onclick="location.href='./account.html'" type="button" class="ht-item">
+                        <i class="far fa-shopping-bag mr-2"></i>
+                        KIỂM TRA ĐƠN HÀNG
+                    </button>
+                    <button onclick="location.href='./login.html'" type="button" class="ht-item">
+                        <i class="far fa-user-circle mr-2"></i>
+                        ĐĂNG NHẬP/ĐĂNG KÝ
+                    </button>
+                    <button onclick="location.href=''" type="button" class="ht-item d-none">
+                        <i class="far fa-user-circle mr-2"></i>
+                        CAO NHƠN HƯNG
+                    </button>
+                    <div class="dropdown">
+                        <button class="ht-item d-none d-sm-block" data-toggle="dropdown">
+                            <i class="far fa-globe mr-2"></i>
+                            CHANGE LANGUAGE
+                        </button>
+                        <!-- Popup to change language -->
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item">
+                                <img src="../../public/images/header/flag-icons/vn.svg" alt="" />
+                                Tiếng Việt
+                            </a>
+                            <a class="dropdown-item">
+                                <img src="../../public/images/header/flag-icons/uk.svg" alt="" />
+                                English
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+        <div class="header-middle">
+            <div class="container">
+                <div class="d-md-flex flex-md-row align-items-center">
+                    <div class="logo text-center mr-md-4">
+                        <div class="py-3">
+                            <a href="./index.html">
+                                <img id="logo-img" src="../../public/images/header/logo.jpg" alt="logo" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-fill">
+                        <div class="input-group mr-lg-5 mr-3">
+                            <input id="search-box" class="form-control" type="search"
+                                placeholder="Tìm kiếm trên Amity" />
+                            <div class="input-group-append">
+                                <button class="btn-search btn btn-warning">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <button onclick="location.href='./account.html'" type="button"
+                                class="btn-wish-list btn btn-outline-dark mr-lg-3 mr-2">
+                                <i class="far fa-heart"></i>
+                            </button>
+                            <button onclick="location.href='./cart.html'" type="button"
+                                class="btn-shopping-cart btn btn-danger">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-bottom d-none d-md-block">
+            <div class="container">
+                <div class="menu-bar row">
+                    <div class="menu-item dropdown mr-4">
+                        <button data-toggle="dropdown">
+                            <i class="fas fa-list mr-1"></i>
+                            DANH MỤC SẢN PHẨM
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="./category.html">
+                                NƯỚC GIẶT XẢ
+                            </a>
+                            <a class="dropdown-item" href="./category.html">
+                                NƯỚC RỬA CHÉN
+                            </a>
+                            <a class="dropdown-item" href="./category.html">
+                                KEM ĐÁNH RĂNG
+                            </a>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="menu-item mr-4">
+                        <a href="./policy.html">
+                            HƯỚNG DẪN MUA HÀNG
+                        </a>
+                    </div>
+                    <div class="menu-item mr-4">
+                        <a href="./policy.html">
+                            QUY ĐỊNH BẢO HÀNH
+                        </a>
+                    </div>
+                    <div class="menu-item">
+                        <a href="./policy.html">
+                            ZALO TRÚC LINH: 0915095292  
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    
+    <br />
+
+    <div class="main-area">
+        <div class="container">
+            <!-- content-wraper start -->
+            <div class="content-wraper">
+                <div class="row single-product-area">
+                    <div class="col-lg-5 col-md-6 pl-0">
+                        <!-- Product Details Left -->
+                        <div class="product-details-left">
+                            <div class="product-details-images">
+                                <div class="lg-image">
+                                    <a class="popup-img venobox vbox-item" href="../../public/images/featured-product/nuocgiatxa_1.jpg"
+                                        data-gall="myGallery">
+                                        <img id="image" src="../../public/images/featured-product/nuocgiatxa_1.jpg" alt="product image" class="w-100" />
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <!--// Product Details Left -->
+                    </div>
+
+                    <div class="col-lg-7 col-md-6 pr-0">
+                        <div class="product-details-view-content pt-60">
+                            <div class="product-info">
+                                <h2 id="name">
+                                    Nước Giặt Xả Amity 2 Trong 1 (5kg/Can) Hương Nước Hoa Diệt Khuẩn
+                                </h2>
+                                <div class="product-category">
+                                    <b>Loại sản phẩm:</b>
+                                    <b id="brand">Nước Giặt Xả</b>
+                                </div>
+                                <div class="rating-review mt-3">
+                                    <div class="rating-stars">
+                                        <ul class="rating">
+                                            <li>
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </li>
+                                            <li>
+                                                <i class="far fa-star"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="price-box mt-3">
+                                    Giá:
+                                    <span id="cost"  class="price ml-2">
+                                        172.000đ
+                                    </span>
+                                </div>
+                                
+                                <div class="line"></div>
+                                <div class="add-to-wishlist my-3">
+                                    <button type="button" class="wishlist-btn">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    Thêm vào danh sách yêu thích
+                                </div>
+                                <div class="line"></div>                            
+                                <div class="block-reassurance my-3">
+                                    <div class="row align-items-center">
+                                        <i class="far fa-check-circle mr-3"></i>
+                                        <i>Cam kết sản phẩm mới 100%</i>
+                                    </div>                                                                       
+                                </div>
+                                <div class="line"></div>
+                                <div class="block-reassurance my-3">
+                                    <div class="row align-items-center">
+                                        <i class="far fa-check-circle mr-3"></i>
+                                        <i>Hàng Việt Nam chất lượng cao</i>
+                                    </div>                                                                      
+                                </div>
+                                <div class="line"></div>
+                                <div class="block-reassurance my-3">
+                                    <div class="row align-items-center">
+                                        <i class="far fa-check-circle mr-3"></i>
+                                        <i id="contact">Liên hệ đặt hàng: 0915095292</i>
+                                    </div>                                                                      
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- content-wraper end -->
+            <br />
+
+            <div class="section-title nav" id="myTab" role="tablist">
+                <a class="title-item active" id="detail-tab" data-toggle="tab" href="#detail" role="tab"
+                    aria-selected="true">
+                    Thông tin chi tiết
+                </a>
+                <span class="separate"></span>
+                <a class="title-item" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-selected="false">
+                    Đánh giá
+                </a>
+            </div>
+            <div class="tab-content mt-4" id="myTabContent">
+                <div class="tab-pane fade show active" id="detail" role="tabpanel">
+                    <p>
+                        Đánh bật vết bẩn nhanh chóng và hiệu quả.
+                    </p>
+                    <p>
+                        Khả năng giặt tẩy và kháng khuẩn mạnh.
+                    </p>
+                    <p>
+                        Không để lại cặn trên quần áo như các loại bột giặt thông thường.
+                    </p>
+                    <p>
+                        Giữ cho quần áo không bị khô cứng sau khi phơi.
+                    </p>
+                    <p>
+                        Bảo vệ quần áo lưu giữ hương thơm nhẹ nhàng bền lâu.
+                    </p>
+                    <p>
+                        Sản phẩm sử dụng cho cả máy giặt và giặt tay.
+                    </p>
+                    <p>
+                        Amity - sản phẩm tâm huyết từ Nghệ sỹ Quyền Linh
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="review" role="tabpanel">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="rating-stars">
+                                    <ul class="rating">
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </li>
+                                        <li>
+                                            <i class="far fa-star"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="post-time">21/05/2020</div>
+                            </div>
+                            <div class="account-name">bởi Trân L.</div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="rating-stars">
+                                    <ul class="rating">
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </li>
+                                        <li>
+                                            <i class="far fa-star"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="post-time">28/05/2020</div>
+                            </div>
+                            <div class="account-name">bởi Nguyễn Đ.</div>
+                            <div class="comment">
+                                Sản phẩm của Amity đảm bảo tiêu chí như vừa an toàn, vừa sạch khuẩn lại vừa dưỡng da tay, phù hợp với các thành viên trong gia đình.
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="rating-stars">
+                                    <ul class="rating">
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </li>
+                                        <li>
+                                            <i class="far fa-star"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="post-time">28/07/2020</div>
+                            </div>
+                            <div class="account-name">bởi Khánh V.</div>
+                            <div class="comment">
+                                Sản phẩm chất lượng, giá cả hợp lý.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <br />
+
+            
+        </div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <!-- Footer begin -->
+    <footer>
+        <div class="container pt-3 pb-1">
+            <div class="row d-flex justify-content-between no-gutters">
+                <div class="col-lg-6 pr-lg-5">
+                    <div>
+                        <h5>ĐIỆN THOẠI MUA HÀNG</h5>
+                        <h2 class="line"></h2>
+                        <ul class="list-unstyled normal-text">
+                            <li>Zalo: 0915095292</li> 
+                            <li>Trang web chính chủ của Nguyễn Thị Trúc Linh.</li>                           
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 pr-lg-5">
+                    <h5>CHÍNH SÁCH</h5>
+                    <h2 class="line"></h2>
+                    <ul class="list-unstyled normal-text">
+                        <li>Chính sách bán hàng</li>
+                        <li>Chính sách bảo hành</li>
+                        
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <div>
+                        <h5>PHƯƠNG THỨC THANH TOÁN</h5>
+                        <h2 class="line"></h2>
+                        <img src="../../public/images/footer/visa.svg" width="54" class="mr-3" />
+                        <img src="../../public/images/footer/maestro.svg" width="54" class="mr-3" />
+                        <img src="../../public/images/footer/american-express.svg" width="54" class="mr-3" />
+                        <img src="../../public/images/footer/jcb.svg" width="54" class="mr-3" />
+                        
+                    </div>
+                    <br />
+                    <br />
+                    
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../../public/script/navigate.js"></script> 
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
